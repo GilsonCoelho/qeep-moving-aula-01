@@ -3,9 +3,9 @@ package br.com.qm.aula03;
 import java.util.Scanner;
 
 public class ExercicioSete {
-	
+
 	// 5. Faça um programa que leia um número inteiro positivo n e
-	// calcule a soma dos 
+	// calcule a soma dos
 	// n primeiros números naturais.
 
 	@SuppressWarnings("resource")
@@ -19,17 +19,13 @@ public class ExercicioSete {
 		if (qtdNumeros < 0) {
 			System.out.println("Quantidade inválida");
 			return; //break
-		}
-		
+		}		
 		int soma = 0;
 		for (int i = 1; i <= qtdNumeros; i++) {
 			soma += i;
-		}
-		
-		System.out.printf("A soma dos %d inteiros positivos é %d", qtdNumeros, soma);
-		
+			System.out.printf("A soma dos %d inteiros positivos é %d", qtdNumeros, soma);		
 		teclado.close();
-
+		}
 	}
 
 }

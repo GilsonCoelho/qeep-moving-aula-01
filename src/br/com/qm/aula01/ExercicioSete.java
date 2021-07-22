@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 public class ExercicioSete {
 
-	//7. Leia um número inteiro e imprima o seu antecessor e o seu sucessor.
-	
+	// 7. Leia um número inteiro e imprima o seu antecessor e o seu sucessor.
+
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
-		
+
 		System.out.println("## ANTECESSOR E SUCESSOR##");
-		
+
 		System.out.println("Digite o número Inteiro: ");
 		int numeroLido = teclado.nextInt();
-		
+
 		int antecessor = numeroLido - 1;
 		int sucessor = numeroLido + 1;
-		
+
 		System.out.printf("Antecessor de %d é %d e sucessor é %d ", numeroLido, antecessor, sucessor);
-		
+
 		teclado.close();
 	}
 
